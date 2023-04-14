@@ -1,7 +1,6 @@
 # инкапсуляция
 # открытый защищенный скрытый
 
-
 class Bank:
     def __init__(self, name, money, key):
         self.name = name
@@ -19,19 +18,20 @@ class Bank:
                f"{self._money} "
 
     def password(self):
-        self._a()
+        self.__a()
 
-    def _a(self):
+    def __a(self):
         print(self.__key)
 
 
 user1 = Bank('beka', 200_000, 'qwerty')
-user1.set_key('1235434231')
-user1.get_key()
+user1.set_key('000000000')
+# user1.get_key()
 
-user1._money = 10000000000
-# user1.__key = '12345321'
-print(user1)
+# user1._money = 10000000000
+user1._Bank__key = '12345321'
+# print(user1)
 
-user1.password()
+# user1.password()
+user1._Bank__a()
 print(dir(user1))
