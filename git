@@ -19,3 +19,11 @@ git rm --cached  namefile
 git clone link
 git remote remove origin
 
+git branch
+git branch name
+git checkout name
+git checkout -b name
+git merge
+
+
+

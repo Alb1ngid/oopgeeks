@@ -21,10 +21,11 @@ nick text
 # c.execute("INSERT INTO user VALUES ('akeb','qwert',5,'ogil')")
 # c.execute("INSERT INTO user VALUES ('ake','qw1234',10,'gil')")
 # c.execute("INSERT INTO user VALUES ('aki','qwerts',1,'ogPl')")
-# c.execute("INSERT INTO user VALUES ('aka','qwer22',4,'ogol')")
+c.execute("INSERT INTO user VALUES ('aka','qwer22',4,'ogol')")
 # delete
 # c.execute("DELETE FROM user WHERE view <=1 ")
 # c.execute("DELETE FROM user WHERE hobby == 5")
+
 
 
 c.execute("UPDATE user SET name='гига' WHERE rowid==1 ")
